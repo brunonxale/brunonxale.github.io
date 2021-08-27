@@ -6,6 +6,15 @@
     list-style: none;
 }
 
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
 .main{
     display: flex;
     flex-direction: column;
@@ -38,5 +47,5 @@
     align-items: center;
     border-radius: 20px;
     border: 1px solid black;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(92,107,192,.8);
 }
